@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>UNIQ FOUNDATION</title>
+
+  <!-- Include your stylesheets and scripts here -->
+
+  <style>
+    /* Add your custom styles here */
+    .partners-overlay {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .partners-list {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+    }
+
+    .partners-list li {
+      padding: 12px;
+    }
+
+    .nav-item:hover .partners-overlay {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">UNIQ FOUNDATION</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTfeaturesogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">ABOUT</a>
+              <!-- Add partners overlay here -->
+              <div class="partners-overlay">
+                <ul class="partners-list">
+                  <li>Partner 1</li>
+                  <li>Partner 2</li>
+                  <li>Partner 3</li>
+                  <!-- Add more partner items as needed -->
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Products.html">OUR TRAINING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Products.html">AWARDS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Products.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Rest of your HTML content -->
+
+</body>
+
+</html>
